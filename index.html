@@ -8,7 +8,8 @@
     <style>
         body {
             font-family: 'Chewy', cursive;
-            background-color: #f4f4f4;
+            background: url('chrome2.png') no-repeat center center fixed; / Set backdrop image /
+            background-size: cover; / Cover the entire background /
             color: #333;
             margin: 0;
             padding: 0;
@@ -31,8 +32,15 @@
             margin: 10px 0 30px;
             max-width: 600px;
         }
+        .heading-container {
+            background-color: rgba(255, 255, 255, 0.8); / Slightly transparent background /
+            border-radius: 15px; / Rounded corners /
+            padding: 20px; / Padding for the heading section /
+            margin: 20px 0; / Margin for spacing /
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); / Slight shadow for depth /
+        }
         .features {
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.9); / Slightly transparent background /
             border-radius: 10px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             padding: 20px;
@@ -80,15 +88,17 @@
     </style>
 </head>
 <body>
-    <h1>Welcome to JustFriends</h1>
-    <p>Experience the joy of connecting with friends! Our app is designed to make sharing special moments easier and more fun.</p>
+    <div class="heading-container">
+        <h1>Welcome to JustFriends</h1>
+        <p>Experience the joy of connecting with friends! Our app is designed to make sharing special moments easier and more fun.</p>
+    </div>
     
     <div class="features">
         <h2>Features</h2>
         <ul>
-            <li>🎁 Send and receive gifts with ease!</li>
-            <li>👥 Connect with friends from all over the world effortlessly.</li>
-            <li>✨ Enjoy a fun and engaging user interface.</li>
+            <li>🌍 Connect with friends around the world! Discover new cultures and make lasting friendships from every corner of the globe.</li>
+            <li>🎁 Instantly send and receive gifts! Share joy with your friends with just a few taps and make every occasion special.</li>
+            <li>💬 Engage in fun chats! Join lively discussions, share experiences, and grow your social circle with like-minded users.</li>
         </ul>
     </div>
 
